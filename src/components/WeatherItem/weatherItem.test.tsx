@@ -4,7 +4,7 @@ import { WeatherItem } from "@components/WeatherItem"
 import dropIcon from '@assets/drop.svg'
 
 describe("Component: WeatherItem", () => {
-  it('should be render show title and value', () => {
+  it('should be render show title and valuer', () => {
     render(
       <WeatherItem 
         icon={dropIcon}
