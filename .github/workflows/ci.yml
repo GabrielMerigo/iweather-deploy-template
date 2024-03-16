@@ -2,7 +2,7 @@ name: CI
 
 on: [push]
 jobs:
-  ci-flow:
+  CI:
     runs-on: ubuntu-latest
     
     steps:
