@@ -18,7 +18,7 @@ describe("Screen: Dashboard", () => {
     await saveStorageCity(city)
   })
 
-  it('should be show city weathe', async () => {
+  it('should be show city weather', async () => {
     jest.spyOn(api, 'get').mockResolvedValue({ data: mockWeatherAPIResponse });
 
     render(<Dashboard />)
