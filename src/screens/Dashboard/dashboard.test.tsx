@@ -39,7 +39,7 @@ describe("Screen: Dashboard", () => {
 
     await waitForElementToBeRemoved(() => screen.queryByTestId('loading'))
 
-    const cityName = 'Sain Paul'
+    const cityName = 'São Paulo'
 
     await waitFor(() => act(() => {
       const search = screen.getByTestId('search-input')
