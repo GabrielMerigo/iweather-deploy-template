@@ -16,13 +16,13 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gabrielmerigo.iweather"
+      "bundleIdentifier": "com.gabrieldesouzamerigo.iweather"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png"
       },
-      "package": "com.gabrielmerigo.iweather"
+      "package": "com.gabrieldesouzamerigo.iweather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
