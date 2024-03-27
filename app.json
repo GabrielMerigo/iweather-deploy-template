@@ -2,7 +2,7 @@
   "expo": {
     "name": "iweather",
     "slug": "iweather",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,13 +16,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gabrielmerigo.iweather"
+      "bundleIdentifier": "com.gabrieldesouzamerigo.iweather"
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png"
       },
-      "package": "com.gabrielmerigo.iweather"
+      "package": "com.gabrieldesouzamerigo.iweather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
